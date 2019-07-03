@@ -9,7 +9,8 @@
                 "handler/logrushandler",
                 "handler/rollbarhandler",
                 "handler/sentryhandler",
-                "httperr"
+                "httperr",
+                "utils/keyvals"
             ],
             "url": "https://github.com/emperror/emperror"
         }
