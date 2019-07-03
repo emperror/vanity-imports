@@ -1,0 +1,25 @@
+{
+    "domain": "handler.emperror.dev",
+    "repositories": [
+        {
+            "prefix": "airbrake",
+            "url": "https://github.com/emperror/handler-airbrake"
+        },
+        {
+            "prefix": "bugsnag",
+            "url": "https://github.com/emperror/handler-bugsnag"
+        },
+        {
+            "prefix": "sentry",
+            "url": "https://github.com/emperror/handler-sentry"
+        },
+        {
+            "prefix": "rollbar",
+            "url": "https://github.com/emperror/handler-rollbar"
+        },
+        {
+            "prefix": "logrus",
+            "url": "https://github.com/emperror/handler-logrus"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "domain": "emperror.dev",
+    "repositories": [
+        {
+            "prefix": "emperror",
+            "subs": [
+                "handler/airbrakehandler",
+                "handler/bugsnaghandler",
+                "handler/logrushandler",
+                "handler/rollbarhandler",
+                "handler/sentryhandler",
+                "httperr"
+            ],
+            "url": "https://github.com/emperror/emperror"
+        }
+    ]
+}
