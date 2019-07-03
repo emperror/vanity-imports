@@ -4,11 +4,6 @@
         {
             "prefix": "emperror",
             "subs": [
-                "handler/airbrakehandler",
-                "handler/bugsnaghandler",
-                "handler/logrushandler",
-                "handler/rollbarhandler",
-                "handler/sentryhandler",
                 "httperr",
                 "utils/keyvals"
             ],
