@@ -8,6 +8,10 @@
                 "utils/keyvals"
             ],
             "url": "https://github.com/emperror/emperror"
+        },
+        {
+            "prefix": "errors",
+            "url": "https://github.com/emperror/errors"
         }
     ]
 }
