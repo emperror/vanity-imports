@@ -11,6 +11,9 @@
         },
         {
             "prefix": "errors",
+            "subs": [
+                "utils/keyval"
+            ],
             "url": "https://github.com/emperror/errors"
         }
     ]
