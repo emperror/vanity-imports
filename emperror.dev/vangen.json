@@ -19,6 +19,10 @@
         {
             "prefix": "handler/logrus",
             "url": "https://github.com/emperror/handler-logrus"
+        },
+        {
+            "prefix": "handler/logur",
+            "url": "https://github.com/emperror/handler-logur"
         }
     ]
 }
