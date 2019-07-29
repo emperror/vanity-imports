@@ -23,6 +23,10 @@
         {
             "prefix": "handler/logur",
             "url": "https://github.com/emperror/handler-logur"
+        },
+        {
+            "prefix": "handler/stackdriver",
+            "url": "https://github.com/emperror/handler-stackdriver"
         }
     ]
 }
