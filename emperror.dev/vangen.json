@@ -3,17 +3,10 @@
     "repositories": [
         {
             "prefix": "emperror",
-            "subs": [
-                "httperr",
-                "utils/keyvals"
-            ],
             "url": "https://github.com/emperror/emperror"
         },
         {
             "prefix": "errors",
-            "subs": [
-                "utils/keyval"
-            ],
             "url": "https://github.com/emperror/errors"
         },
         {
