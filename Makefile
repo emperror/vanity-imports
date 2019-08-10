@@ -5,6 +5,10 @@ OS = $(shell uname)
 GOBIN_VERSION = 0.0.10
 VANGEN_VERSION = 1.0.0
 
+.PHONY: build
+build: vangen ## Build the site
+	cp -r static/* public/
+
 bin/gobin: bin/gobin-${GOBIN_VERSION}
 	@ln -sf gobin-${GOBIN_VERSION} bin/gobin
 bin/gobin-${GOBIN_VERSION}:
@@ -24,8 +28,12 @@ bin/vangen-${VANGEN_VERSION}: bin/gobin
 	@mv bin/vangen bin/vangen-${VANGEN_VERSION}
 
 .PHONY: vangen
-vangen: bin/vangen
-	bin/vangen -out public/
+vangen: bin/vangen ## Build golang files
+	bin/vangen -out public/golang/
+
+.PHONY: clean
+clean: ## Remove built files
+	rm -rf public/
 
 .PHONY: list
 list: ## List all make targets
