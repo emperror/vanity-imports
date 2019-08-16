@@ -6,11 +6,5 @@
 /errors/* go-get=1 /golang/errors/index.html 200
 /errors/* https://godoc.org/emperror.dev/errors 302
 
-/handler/logrus/* go-get=1 /golang/handler/logrus/index.html 200
-/handler/logrus/* https://godoc.org/emperror.dev/handler/logrus 302
-
-/handler/logur/* go-get=1 /golang/handler/logur/index.html 200
-/handler/logur/* https://godoc.org/emperror.dev/handler/logur 302
-
-/handler/stackdriver/* go-get=1 /golang/handler/stackdriver/index.html 200
-/handler/stackdriver/* https://godoc.org/emperror.dev/handler/stackdriver 302
+/handler/:handler/* go-get=1 /golang/handler/:handler/index.html 200
+/handler/:handler/* https://godoc.org/emperror.dev/handler/:handler 302
