@@ -20,6 +20,22 @@
         {
             "prefix": "handler/stackdriver",
             "url": "https://github.com/emperror/handler-stackdriver"
+        },
+        {
+            "prefix": "handler/airbrake",
+            "url": "https://github.com/emperror/handler-airbrake"
+        },
+        {
+            "prefix": "handler/bugsnag",
+            "url": "https://github.com/emperror/handler-bugsnag"
+        },
+        {
+            "prefix": "handler/sentry",
+            "url": "https://github.com/emperror/handler-sentry"
+        },
+        {
+            "prefix": "handler/rollbar",
+            "url": "https://github.com/emperror/handler-rollbar"
         }
     ]
 }
